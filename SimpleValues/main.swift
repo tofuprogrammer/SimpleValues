@@ -10,3 +10,7 @@ let explicitDouble: Double = 70.0
 
 let explicitFloat: Float = 4
 // Completed the float declaration experiment
+
+let label = "The width is "
+let width = 94
+let widthLabel = label + String(width)
