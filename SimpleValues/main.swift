@@ -29,3 +29,13 @@ let firstFloat = 4.7
 let secondFloat = 5.3
 let floatSum = "The two floats \(firstFloat) and \(secondFloat) add up to \(firstFloat + secondFloat)."
 // Completed floating-point calculation experiment.
+
+let quotation = """
+        Even though there's whitespace to the left,
+        the actual lines aren't indented.
+            Except for this line.
+        Double quotes (") can appear without being escaped.
+        
+        I still have \(apples + oranges) fruits.
+        """
+// Completed quotation task.
