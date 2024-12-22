@@ -39,3 +39,25 @@ let quotation = """
         I still have \(apples + oranges) fruits.
         """
 // Completed quotation task.
+
+var fruits = ["strawberries", "limes", "tangerines"]
+fruits[1] = "grapes"
+// Replaces "limes" with "grapes".
+
+var occupations = [
+    "Malcolm": "Captain",
+    "Kaylee": "Mechanic",
+]
+occupations["Jayne"] = "Public Relations"
+// Adds an element to the "occupations" dictonary with the key "Jayne" and the value "Public Relations".
+
+fruits.append("blueberries")
+print (fruits)
+// Prints "["strawberries", "grapes", "tangerines", "blueberries"]".
+
+fruits = [] // Replaces "fruits" with an empty array
+occupations = [:] // Replaces "occupations" with an empty array
+
+let emptyArray: [String] = []
+let emptyDictionary: [String: Float] = [:]
+// Empty arrays and dictionaries must include type information when there is none already, such as when assigning them to a new variable.
