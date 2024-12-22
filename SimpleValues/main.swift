@@ -14,3 +14,4 @@ let explicitFloat: Float = 4
 let label = "The width is "
 let width = 94
 let widthLabel = label + String(width)
+// Removing the String conversion gives the error "Binary operator '+' cannot be applied to operands of type 'String' and 'Int'.
