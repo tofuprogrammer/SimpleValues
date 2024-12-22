@@ -24,3 +24,7 @@ let fruitSummary = "Therefore I have \(apples + oranges) fruits."
 /* Initialises two constants, a number of apples and a number of oranges.
  Uses escape sequences to display the numbers contained in these constants in the output.
  Uses escape sequences to perform integer maths before outputting the result to the console. */
+
+let firstFloat = 4.7
+let secondFloat = 5.3
+let floatSum = "The two floats \(firstFloat) and \(secondFloat) add up to \(firstFloat + secondFloat)."
