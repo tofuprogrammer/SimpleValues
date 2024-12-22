@@ -28,3 +28,4 @@ let fruitSummary = "Therefore I have \(apples + oranges) fruits."
 let firstFloat = 4.7
 let secondFloat = 5.3
 let floatSum = "The two floats \(firstFloat) and \(secondFloat) add up to \(firstFloat + secondFloat)."
+// Completed floating-point calculation experiment.
